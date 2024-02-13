@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div id= "body">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+
+        <form action="#" method="post">
+            <div>
+                <label for="info">YOUR NAME*</label>
+                <input required class= "info" type="text" placeholder= "First name">
+                <input required class= "info" type="text" placeholder= "Last name">
+            </div>
+
+
+            <div id= "others">
+                <label for="info">EMAIL ADDRESS*</label>  
+                <input required class= "info stretch" type="email" name="email" placeholder="Eg. example@gmail.com">
+
+                <label for="info">PHONE NUMBER</label>
+                <input required class= "info stretch" type="tel" name="phonenumber"  placeholder="*1 800 000000">
+
+                <label for="info">MESSAGE*</label>
+                <textarea required class= "info stretch" name="message" placeholder="Please enter your comments">
+                </textarea>
+            </div>
+
+            <div id= "submit">
+                <input type="submit" id= "response" value="Submit">
+            </div>
+        </form>    
+
+    </div>
+
+    
+    <script src='main.js'></script>
+</body>
+</html>
